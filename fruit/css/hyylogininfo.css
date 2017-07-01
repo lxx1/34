@@ -1,0 +1,51 @@
+html,body{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background-image:url("../img/hyyloginback.png");
+    background-size:100%;
+}
+
+.login{
+    margin:0 auto;
+    margin-top:1.4rem;
+    height:2.36rem;
+    width:2.6rem;
+ }
+.login img{
+    width:100%;
+}
+.loginword{
+    margin:0 auto;
+    margin-top:0.08rem;
+    height:0.99rem;
+    width:3.22rem;
+}
+.loginword img{
+    width:100%;
+}
+.loginbtn,.regbtn{
+    height:0.9rem;
+    width:4rem;
+    border-radius:0.6rem;
+    background: #fff;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.4);
+    font-size: 0.4rem;
+    margin:0 auto;
+    margin-top:1.4rem;
+    text-align: center;
+    line-height: 0.9rem;
+    color:#495558;
+}
+.regbtn{
+    margin-top:0.55rem;
+}
+.loginphone{
+    height:0.11rem;
+    width:2.62rem;
+    margin:0 auto;
+    margin-top: 0.72rem;
+}
+.loginphone img{
+    width:100%;
+}
