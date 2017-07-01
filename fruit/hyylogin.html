@@ -13,6 +13,7 @@
     <script src="js/common.js"></script>
     <link rel="stylesheet" href="css/hyylogin.css">
     <script src="js/zepto.js"></script>
+    <script src="js/touch.min.js"></script>
 </head>
 <body>
     <div class="login">
@@ -50,9 +51,18 @@
 </html>
 <script>
     $(function () {
-        $(".lose section:first-child").on("touchstart",function () {
+//        $(".lose section:first-child").on("touchstart",function () {
+//            $(".bottom p").toggleClass("jizhu");
+//            $(".bottom").toggleClass("jizhu");
+//        })
+        touch.on(".lose section:first-child","tap",function () {
             $(".bottom p").toggleClass("jizhu");
             $(".bottom").toggleClass("jizhu");
+        });
+        $("input").focus(function () {
+            $(".login").css("top","0.05rem");
+            $(".loginword").css("display","none");
+            $(".loginbtn").css("margin-top","0.1rem");
         })
     })
 </script>

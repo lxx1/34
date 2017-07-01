@@ -8,7 +8,7 @@ html,body{
 
 .login{
     margin:0 auto;
-    margin-top:1.4rem;
+    margin-top:1rem;
     height:2.36rem;
     width:2.6rem;
 }
@@ -60,7 +60,6 @@ html,body{
     padding-left: 1.8rem;
     outline: none;
     font-size: 0.32rem;
-    padding-right: 1rem;
 }
 .input p{
     height:1px;
@@ -73,7 +72,6 @@ html,body{
     border:none;
     display: block;
     padding-left: 1.85rem;
-    padding-right: 1rem;
     outline: none;
     font-size: 0.32rem;
 }

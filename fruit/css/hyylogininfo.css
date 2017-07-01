@@ -7,8 +7,10 @@ html,body{
 }
 
 .login{
-    margin:0 auto;
-    margin-top:1.4rem;
+    position: absolute;
+    top:1.4rem;
+    left:50%;
+    margin-left:-1.3rem;
     height:2.36rem;
     width:2.6rem;
  }
@@ -16,10 +18,12 @@ html,body{
     width:100%;
 }
 .loginword{
-    margin:0 auto;
-    margin-top:0.08rem;
+    position: absolute;
     height:0.99rem;
     width:3.22rem;
+    top:3.84rem;
+    left:50%;
+    margin-left:-1.62rem;
 }
 .loginword img{
     width:100%;
@@ -31,20 +35,24 @@ html,body{
     background: #fff;
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.4);
     font-size: 0.4rem;
-    margin:0 auto;
-    margin-top:1.4rem;
     text-align: center;
     line-height: 0.9rem;
     color:#495558;
+    position: absolute;
+    top:6.24rem;
+    left:50%;
+    margin-left:-2rem;
 }
 .regbtn{
-    margin-top:0.55rem;
+    top:7.4rem;
 }
 .loginphone{
     height:0.11rem;
     width:2.62rem;
-    margin:0 auto;
-    margin-top: 0.72rem;
+    position: absolute;
+    top:8.65rem;
+    left:50%;
+    margin-left:-1.3rem;
 }
 .loginphone img{
     width:100%;
